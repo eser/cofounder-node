@@ -1,6 +1,6 @@
 {
   "name": "cofounder-node",
-  "description": "Cofounder implementation for node",
+  "description": "CoFounder implementation for node",
   "keywords": [
     "fs",
     "file",
@@ -9,7 +9,7 @@
     "abstraction",
     "node"
   ],
-  "version": "0.10.0",
+  "version": "0.10.3",
   "homepage": "https://github.com/eserozvataf/cofounder-node#readme",
   "author": "Eser Ozvataf <eser@ozvataf.com>",
   "contributors": [
@@ -47,7 +47,7 @@
   ],
   "bin": {},
   "dependencies": {
-    "cofounder": "^0.10.0",
+    "cofounder": "^0.10.3",
     "cross-spawn": "^6.0.5",
     "glob-all": "^3.1.0",
     "glob-parent": "^3.1.0",

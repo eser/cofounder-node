@@ -26,7 +26,7 @@ async function shell(command: string, args: Array<any> = emptyArray, options: Sp
         stdio: 'inherit',
         shell: false,
         ...options,
-        env: (options.env !== undefined) ?
+        env: (options !== undefined && options.env !== undefined) ?
             appendToObject(process.env, options.env) :
             process.env,
     };

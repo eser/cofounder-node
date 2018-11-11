@@ -19,7 +19,7 @@ Plus, as a library, CoFounder-Node is completely tree-shanking-friendly. Your fa
 
 ## Quick start
 
-Execute `npm install cofounder-node` to install cofounder-node and its dependencies into your project directory.
+Execute `npm install cofounder-node` to install CoFounder-Node and its dependencies into your project directory.
 
 
 ## Usage
@@ -29,10 +29,8 @@ Execute `npm install cofounder-node` to install cofounder-node and its dependenc
 To initialize a Cofounder-Node instance:
 
 ```js
-import Cofounder from 'cofounder-node';
-// or const Cofounder = require('cofounder-node').default;
-
-const cofounder = Cofounder();
+import cofounder from 'cofounder-node';
+// or const cofounder = require('cofounder-node').default;
 
 cofounder.os.shell('ls');
 ```
