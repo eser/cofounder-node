@@ -1,6 +1,6 @@
 /// <reference types="node" />
 import stream from 'stream';
-declare type StdioOptions = "pipe" | "ignore" | "inherit" | Array<("pipe" | "ipc" | "ignore" | "inherit" | stream.Stream | number | null | undefined)>;
+declare type StdioOptions = 'pipe' | 'ignore' | 'inherit' | Array<('pipe' | 'ipc' | 'ignore' | 'inherit' | stream.Stream | number | null | undefined)>;
 interface SpawnOptions {
     cwd?: string;
     env?: NodeJS.ProcessEnv;
