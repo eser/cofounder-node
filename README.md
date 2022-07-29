@@ -8,6 +8,12 @@
 [![license][license-image]][license-url]
 
 
+## Update (July 2022)
+
+DEPRECATED in favor of [hex](https://github.com/eserozvataf/hex).
+See https://github.com/eserozvataf/hex for details.
+
+
 ## What is the CoFounder and CoFounder-Node?
 
 [CoFounder](https://github.com/eserozvataf/cofounder) is designed to offer file system functionalities within an abstraction layer.
